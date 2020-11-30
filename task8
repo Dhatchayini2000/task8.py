@@ -40,13 +40,13 @@ When try-except scenario is not required?
 
 Try getting an input inside the try catch block
 try:
-    print(age)
+    print(num)
 except:
     print("progrom is ended")
-age=int(input('Enter the age:'))
-if age<=18:
-    print('you are not allowed')
+num=int(input('Enter the num:'))
+if num>0:
+    print('num is positive')
 else:
-    print('welcome,you are old enough')
+    print('num is negative')
     
 
